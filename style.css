@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.first-row .btn:hover {
+    background-color: ghostwhite;
+}
+
+.second-row .btn:hover{
+    background-color: ghostwhite;
+}
+
+.third-row .btn:hover {
+    background-color: ghostwhite;
+}
+
+.fourth-row .btn:hover {
+    background-color: ghostwhite;
+}
+
+#user-input{
+    width: 280px;
+    height: 75px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row .clear{
+    margin-left: 40px;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
+
+.error{
+    display: none;
+}

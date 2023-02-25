@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="error">No more than five number</div>
+    <h1>Calculator</h1>
+    <div class="first-row">
+        <div id="user-input">
+            <div class="previous"></div>
+            <div class="current"></div>
+        </div>
+        <button class="btn border border-warning clear-btn">C</button>
+    </div>
+    <div class="second-row">
+        <button class="btn border border-info number">7</button>
+        <button class="btn border border-info number">8</button>
+        <button class="btn border border-info number">9</button>
+        <button class="btn border border border-success operator">/</button>
+    </div>
+    <div class="third-row">
+        <button class="btn border border-info number">4</button>
+        <button class="btn border border-info number">5</button>
+        <button class="btn border border-info number">6</button>
+        <button class="btn border border-success operator">X</button>
+    </div>
+    <div class="third-row">
+        <button class="btn border border-info number">1</button>
+        <button class="btn border border-info number">2</button>
+        <button class="btn border border-info number">3</button>
+        <button class="btn border border-success operator">-</button>
+    </div>
+    <div class="fourth-row">
+        <button class="btn border-success decimal">.</button>
+        <button class="btn border border-info number">0</button>
+        <button class="btn border border-success equal">=</button>
+        <button class="btn border border-success operator">+</button>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
